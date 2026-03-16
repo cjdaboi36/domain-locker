@@ -38,7 +38,7 @@ services:
       DL_PG_NAME: ${DL_PG_NAME:-domain_locker}
 
     ports:
-      - "3000:9999"
+      - "9999:3000"
 
     depends_on:
       postgres:
